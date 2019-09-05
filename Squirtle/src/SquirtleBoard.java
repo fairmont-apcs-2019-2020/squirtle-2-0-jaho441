@@ -19,12 +19,12 @@ public class SquirtleBoard extends Board {
 		
 		// Create a SquirtleThing at 0, 0
 	 	SquirtleThing squirtle = new SquirtleThing();
-	 	squirtle.setLocation(0, 0);
+	 	squirtle.setLocation(4, 0);
 	 	add(squirtle);
 	 	
 	 	// Create a BulbasaurThing at 0, 4
 	 	BulbasaurThing bulbasaur = new BulbasaurThing();
-	 	bulbasaur.setLocation(4, 0);
+	 	bulbasaur.setLocation(4, 2);
 	 	add(bulbasaur);
 	 	
 	}
